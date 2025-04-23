@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/TW01/Assets/TW01/TW01_JYJ/TW01_YVJ_Scene.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
