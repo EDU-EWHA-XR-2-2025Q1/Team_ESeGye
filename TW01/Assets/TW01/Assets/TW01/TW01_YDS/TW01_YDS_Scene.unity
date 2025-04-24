@@ -1024,7 +1024,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b61accb1d3014194b158dce520ad373, type: 2}
+  - {fileID: 2100000, guid: 01eb07039d6f846b49bbc8217b415f4a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1214,7 +1214,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b61accb1d3014194b158dce520ad373, type: 2}
+  - {fileID: 2100000, guid: 01eb07039d6f846b49bbc8217b415f4a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1574,6 +1574,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: c14dffae8c2453d419734dfe8170a61a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 67c20196b435c48778892028a06151fd, type: 2}
     - target: {fileID: 919132149155446097, guid: c14dffae8c2453d419734dfe8170a61a, type: 3}
       propertyPath: m_Name
       value: Heart
@@ -1765,7 +1769,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6470e1a9104c3b34ebb762bc78749465, type: 2}
+  - {fileID: 2100000, guid: 98ab880ac73f54eb7b80ab6441364470, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
