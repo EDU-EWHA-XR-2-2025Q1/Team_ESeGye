@@ -8,12 +8,19 @@ public class TW01_YDS_Put_Controller : MonoBehaviour
     public GameObject TargetObjectToThrow;
     public Transform PlayerCamera;
     bool isInTheArea = false;
+    
+    public GameObject UI;
 
     void Update()
     {
         if(Input.GetMouseButtonDown(0) && isInTheArea)
         {
-            Throw();
+            int pickCounts = UI.GetComponent<TW01_YDS_UI_Controller>().GetPickCounts();
+            if(pickCounts>0)
+            {
+                Throw();
+                UI.GetComponent<TW01_YDS_UI_Controller>().Decrease_PickCounts();
+            }
         }
     }
 
