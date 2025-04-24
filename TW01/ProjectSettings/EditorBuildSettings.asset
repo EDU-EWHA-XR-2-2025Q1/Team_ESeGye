@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TW01/Assets/TW01/TW01_PJH/TW01_PJH_Scene.unity
     guid: 3b431525339a60c408ffa200c6b0ee40
+  - enabled: 1
+    path: Assets/TW01/Assets/TW01/TW01_YDS/TW01_YDS_Scene.unity
+    guid: 73b558d44906144d78bbe1adbcb485a1
   m_configObjects: {}

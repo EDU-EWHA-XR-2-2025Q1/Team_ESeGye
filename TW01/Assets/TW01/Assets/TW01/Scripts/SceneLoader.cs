@@ -40,4 +40,19 @@ public class SceneLoader : MonoBehaviour
             Debug.LogError("TW01_PJH_Scene 씬이 Build Settings에 등록되지 않았거나 이름이 틀렸습니다!");
         }
     }
+
+     public void LoadYDSScene(){
+
+        Debug.Log("버튼 눌림 - 씬 이동 시도");
+
+        if (Application.CanStreamedLevelBeLoaded("TW01_YDS_Scene"))
+        {
+            Debug.Log("씬 전환 시작!");
+            SceneManager.LoadScene("TW01_YDS_Scene");
+        }
+        else
+        {
+            Debug.LogError("TW01_YDS_Scene 씬이 Build Settings에 등록되지 않았거나 이름이 틀렸습니다!");
+        }
+    }
 }
