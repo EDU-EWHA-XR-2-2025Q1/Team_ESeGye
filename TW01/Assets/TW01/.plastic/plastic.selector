@@ -1,0 +1,4 @@
+repository "TW01/Team_ESeGye@14569622050921@cloud"
+  path "/"
+    br "/main"
+    co "/main"
